@@ -1,0 +1,110 @@
+{
+	"name": "colorify",
+	"displayName": "colorify",
+	"publisher": "Attosol",
+	"description": "Change the color of Sidebar for different workspaces. It makes it easy to distinguish different workspaces.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"preview": true,
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "colorify.amaranth_purple",
+				"title": "Colorify: Amaranth Purple"
+			},
+			{
+				"command": "colorify.antique_brass",
+				"title": "Colorify: Antique Brass"
+			},
+			{
+				"command": "colorify.baby_blue",
+				"title": "Colorify: Baby Blue"
+			},
+			{
+				"command": "colorify.dark_liver",
+				"title": "Colorify: Dark Liver"
+			},
+			{
+				"command": "colorify.dark_sienna",
+				"title": "Colorify: Dark Sienna"
+			},
+			{
+				"command": "colorify.dark_sky_blue",
+				"title": "Colorify: Dark Sky Blue"
+			},
+			{
+				"command": "colorify.dark_sea_green",
+				"title": "Colorify: Dark Sea Green"
+			},
+			{
+				"command": "colorify.fawn",
+				"title": "Colorify: Fawn"
+			},
+			{
+				"command": "colorify.fern_green",
+				"title": "Colorify: Fern Green"
+			},
+			{
+				"command": "colorify.gold_crayola",
+				"title": "Colorify: Gold Crayola"
+			},
+			{
+				"command": "colorify.hunter_green",
+				"title": "Colorify: Hunter Green"
+			},
+			{
+				"command": "colorify.hookers_green",
+				"title": "Colorify: Hookers Green"
+			},
+			{
+				"command": "colorify.light_coral",
+				"title": "Colorify: Light Coral"
+			},
+			{
+				"command": "colorify.light_pink",
+				"title": "Colorify: Light Pink"
+			},
+			{
+				"command": "colorify.platinum",
+				"title": "Colorify: Platinum"
+			},
+			{
+				"command": "colorify.uranian_blue",
+				"title": "Colorify: Uranian Blue"
+			},
+			{
+				"command": "colorify.violet_blue_crayola",
+				"title": "Colorify: Violet Blue Crayola"
+			},
+			{
+				"command": "colorify.reset",
+				"title": "Colorify: Reset Colors"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.46.0",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
+}
