@@ -10,7 +10,9 @@ Open Command Palette and search for "Colorify". You should be able to see differ
 
 ![screenshot](images/colorify.png)
 
-Pick one you like. Enjoy!
+![screenshot](images/samples.png)
+
+Pick the one you like. Enjoy!
 
 ## How to reset color to default
 
