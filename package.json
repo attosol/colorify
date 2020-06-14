@@ -1,9 +1,11 @@
 {
 	"name": "colorify",
-	"displayName": "colorify",
+	"displayName": "Colorify",
+	"repository": "https://github.com/attosol/colorify.git",
 	"publisher": "Attosol",
+	"icon": "images/icon.png",
 	"description": "Change the color of Sidebar for different workspaces. It makes it easy to distinguish different workspaces.",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.46.0"
 	},

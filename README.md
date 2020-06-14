@@ -8,7 +8,7 @@ Note: It will work only on workspaces.
 
 Open Command Palette and search for "Colorify". You should be able to see different colors:
 
-![image](assets/colorify.png)
+![screenshot](images/colorify.png)
 
 Pick one you like. Enjoy!
 
